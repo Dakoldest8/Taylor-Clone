@@ -18,6 +18,8 @@ int main()
 	float a = average(n1, n2, n3);
 
 	cout << setprecision(1) << fixed << "The average is " << a << endl;
-
+	cout << "Press enter to exit..." << endl; 
+	cin.get();
+	cin.ignore();
 	return 0;
 }
